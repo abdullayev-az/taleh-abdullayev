@@ -32,7 +32,7 @@ var typed = new Typed(".auto-text", {
     loop: true
 })
 
-$('.sun1').click(function(){
+$('.moon1').click(function(){
   
    $('.sun').css('display','none');
    $('.moon').css('display','block');
@@ -41,7 +41,7 @@ $('.sun1').click(function(){
    $('.color-2').css('color','#111');
    $('.invert').css('filter','invert(1)');
 });
-$('.moon1').click(function(){
+$('.sun1').click(function(){
     
     $('.sun').css('display','block');
     $('.moon').css('display','none');
